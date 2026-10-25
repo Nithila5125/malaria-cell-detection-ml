@@ -30,3 +30,4 @@ Seed is 42 (`config.py`). Positive class is Parasitized. All numbers are written
 - Model tuning used training data only (5-fold grouped CV, ROC-AUC). The test set was evaluated once; the color ablation, permutation importance and error analysis are diagnostic and were not used to retune.
 - The GLCM texture is computed on grayscale intensity, so the no-color ablation still contains intensity information.
 - Single dataset and site; not validated for clinical use.
+    python -m src.sanity_checks
