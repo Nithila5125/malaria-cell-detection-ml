@@ -4,3 +4,5 @@ models/
 __pycache__/
 *.pyc
 data/processed/features_smoke.parquet
+results/_demo_upload.png
+results/_demo_upload.png

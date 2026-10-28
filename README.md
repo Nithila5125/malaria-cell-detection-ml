@@ -64,3 +64,19 @@ Random seed is 42. All outputs are written to `results/`. The dataset and traine
     results/    metrics, figures, predictions
     data/processed/   features and the frozen split
     config.py   paths, seed, class mapping
+
+## Demo (local)
+
+A small Streamlit page shows a held-out test cell, the model's call and the features behind it. It needs the dataset in data/raw and the trained models in models/ (neither is stored in this repository), so run the full pipeline first.
+
+    pip install -r requirements-demo.txt
+    python -m streamlit run src/demo_app.py
+
+
+## Demo (local)
+
+A small Streamlit page shows a held-out test cell, the model's call and the features behind it. It needs the dataset in data/raw and the trained models in models/ (neither is stored in this repository), so run the full pipeline first.
+
+    pip install -r requirements-demo.txt
+    python -m streamlit run src/demo_app.py
+
